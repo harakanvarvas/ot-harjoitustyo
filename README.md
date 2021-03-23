@@ -23,5 +23,10 @@ mahdollista laatia monen eri tekstilajin tekstejä. Myös
 puheesta voidaan tehdä tekstiä _translitteroimalla_ ja koostamalla 
 se luettavaan muotoon. 
 
-[Wikipedia: Teksti (luettu 23.3.2021), 
-https://fi.wikipedia.org/wiki/Teksti]
+[Wikipedia: Teksti (2021), 
+https://fi.wikipedia.org/wiki/Teksti, (luettu 23.3.2021)]
+
+
+
+[Linkki tiedostoon gitlog.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/laskarit/viikko1/gitlog.txt)
+[Linkki tiedostoon komentorivi.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/laskarit/viikko1/komentorivi.txt)
