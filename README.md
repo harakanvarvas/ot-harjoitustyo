@@ -1,4 +1,4 @@
-<Teksti>
+<<Teksti>>
 
 
 **Teksti** eli _kirjoitelma_ on luettavaksi tarkoitettua kirjoitusta,
