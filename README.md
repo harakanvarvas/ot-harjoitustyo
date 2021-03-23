@@ -29,4 +29,5 @@ https://fi.wikipedia.org/wiki/Teksti, (luettu 23.3.2021)]
 
 
 [Linkki tiedostoon gitlog.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/laskarit/viikko1/gitlog.txt)
+
 [Linkki tiedostoon komentorivi.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/laskarit/viikko1/komentorivi.txt)
