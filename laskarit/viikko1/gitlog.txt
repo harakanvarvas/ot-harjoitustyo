@@ -1,0 +1,79 @@
+
+commit 24feedca5f39fe2300137128660337cc0671ace9
+Author: harakanvarvas <niksu.hynninen@helsinki.fi>
+Date: Mon Mar 22 18:46:12 2021 +0200
+  poistettu ja uudelleennimetty
+ tiedostoja/file2 | 0
+tiedostoja/{file1 => file22} | 0
+2 files changed, 0 insertions(+), 0 deletions(-)
+ commit 4d6582bdf5dbbe23d3a9738bab13aba33f8e2663
+Author: harakanvarvas <niksu.hynninen@helsinki.fi>
+Date: Mon Mar 22 17:39:34 2021 +0200
+  luotiin uusi hakemisto tiedostoja
+ tiedostoja/file1 | 0
+tiedostoja/file2 | 0
+tiedostoja/file3 | 0
+3 files changed, 0 insertions(+), 0 deletions(-)
+ commit 22d3417adb28bf09a9f63a31a8e00acf88a12ef9
+Author: harakanvarvas <niksu.hynninen@helsinki.fi>
+Date: Mon Mar 22 15:01:55 2021 +0200
+  muutoksia
+ eka.txt | 86 +++++---------------------------------------------------------
+kolmas.txt | 17 ++++++++++++-
+2 files changed, 23 insertions(+), 80 deletions(-)
+ commit 7f2652bc1e73f806c5f184c2091cae96fc0bf408
+Author: harakanvarvas <niksu.hynninen@helsinki.fi>
+Date: Mon Mar 22 14:51:16 2021 +0200
+  uudelleennimeäminen
+ tiedosto.txt => eka.txt | 0
+1 file changed, 0 insertions(+), 0 deletions(-)
+ commit 7256529d330c77e12f961620326ea6ee57c57042
+Author: harakanvarvas <niksu.hynninen@helsinki.fi>
+Date: Mon Mar 22 14:50:15 2021 +0200
+  poistettu toinen.txt
+ toinen.txt | 1 -
+1 file changed, 1 deletion(-)
+ commit 68336127d82a993468a701eb1b6d86340d55f941
+Author: harakanvarvas <niksu.hynninen@helsinki.fi>
+Date: Mon Mar 22 14:46:02 2021 +0200
+  muutos tiedostoon tiedosto.txt
+ tiedosto.txt | 9 +--------
+1 file changed, 1 insertion(+), 8 deletions(-)
+ commit 577ce32ef66b3ff2913c9544e90a793a50d0c351
+Author: harakanvarvas <niksu.hynninen@helsinki.fi>
+Date: Mon Mar 22 14:43:18 2021 +0200
+  muutos tiedostoon tiedosto.txt
+ tiedosto.txt | 303 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+1 file changed, 302 insertions(+), 1 deletion(-)
+ commit 875f61d749a8730da3dc6a0603c2c598968dba39
+Author: harakanvarvas <niksu.hynninen@helsinki.fi>
+Date: Mon Mar 22 14:37:13 2021 +0200
+  lisätty hakemisto
+ stuff/tiedosto2.txt | 0
+1 file changed, 0 insertions(+), 0 deletions(-)
+ commit 7fe6b38e6441031dda751197364644afbe3cbf4e
+Author: harakanvarvas <niksu.hynninen@helsinki.fi>
+Date: Mon Mar 22 14:35:32 2021 +0200
+  muutos toinen.txt ja kolmas.txt
+ kolmas.txt | 1 +
+toinen.txt | 1 +
+2 files changed, 2 insertions(+)
+ commit adbe0e3172ccce95f1417c90a80338642f7e0d9b
+Author: harakanvarvas <niksu.hynninen@helsinki.fi>
+Date: Mon Mar 22 14:33:56 2021 +0200  luotu kolmas.txt
+ kolmas.txt | 0
+1 file changed, 0 insertions(+), 0 deletions(-)
+ commit b734c4f63b766bf10281ceb5dc3b63402356adbf
+Author: harakanvarvas <niksu.hynninen@helsinki.fi>
+Date: Mon Mar 22 12:01:51 2021 +0200
+  muutos ja lisäys
+ tiedosto.txt | 1 +
+toinen.txt | 0
+2 files changed, 1 insertion(+)
+ commit 1d810d2ee903f5cb1965ed0ba219a154423807cd
+Author: harakanvarvas <niksu.hynninen@helsinki.fi>
+Date: Mon Mar 22 11:59:37 2021 +0200
+  tiedosto.txt luotu
+ tiedosto.txt | 0
+1 file changed, 0 insertions(+), 0 deletions(-)
+niksu@lx0-fuxi140:~/ot_viikko1/tiedostoja$
