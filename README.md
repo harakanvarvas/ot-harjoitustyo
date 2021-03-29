@@ -1,4 +1,4 @@
-<<Teksti>>
+<Teksti>
 
 
 **Teksti** eli _kirjoitelma_ on luettavaksi tarkoitettua kirjoitusta,
@@ -28,6 +28,8 @@ https://fi.wikipedia.org/wiki/Teksti, (luettu 23.3.2021)]
 
 
 
-x[Linkki tiedostoon gitlog.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/laskarit/viikko1/gitlog.txt)
+[Linkki tiedostoon gitlog.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/laskarit/viikko1/gitlog.txt)
 
-x[Linkki tiedostoon komentorivi.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/laskarit/viikko1/komentorivi.txt)
+[Linkki tiedostoon komentorivi.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/laskarit/viikko1/komentorivi.txt)
+
+[Linkki tiedostoon maarittelydokumentti.txt]
