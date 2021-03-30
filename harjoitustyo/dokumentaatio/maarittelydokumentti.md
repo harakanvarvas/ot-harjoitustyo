@@ -6,9 +6,16 @@ __Ohjelma:__ Huonekasvien tarkkailussa ja hoidossa hyödynnettävä ohjelma, joh
 
 __Ohjelmointikieli:__ Python
 
+__Ohjelmointisuunnitelma:__ Aluksi tekstikäyttöliittymä. Kun perusominaisuudet toimivat halutusti, luodaan graafinen käyttöliittymä.
+
+__Tiedon tallennus:__ Tiedosto, tai todennäköisemmin tietokanta. Tieto tallennetaan paikallisen koneen levylle.
+
+__Testaus:__ Automatisoitu
 
 
-__Vaatimusmäärittely:__ 
+
+
+## __Vaatimusmäärittely:__ 
 
 -Ohjelman tulee toimia Linux-käyttöjärjestelmällä
 
@@ -31,7 +38,7 @@ __Vaatimusmäärittely:__
 
 
 
-__Jatkokehitysideoita:__
+## __Jatkokehitysideoita:__
 
 -Käyttäjä voi:
 
@@ -40,12 +47,4 @@ __Jatkokehitysideoita:__
 -Mahdollisesti pitää kirjaa kuolleista kasveista ja kuolinsyystä?
 
 -Mahdollisesti kasvinlisäysvaiheessa valita kasvin tyypin muutamasta yleisimmästä kategoriasta ja saada oletusarvoiset hoito-ohjeet kasville? 
-
-
-
-__Ohjelmointisuunnitelma:__ Aluksi tekstikäyttöliittymä. Kun perusominaisuudet toimivat halutusti, luodaan graafinen käyttöliittymä.
-
-__Tiedon tallennus:__ Tiedosto, tai todennäköisemmin tietokanta. Tieto tallennetaan paikallisen koneen levylle.
-
-__Testaus:__ Automatisoitu
 
