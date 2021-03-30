@@ -32,6 +32,6 @@ https://fi.wikipedia.org/wiki/Teksti, (luettu 23.3.2021)]
 
 [Linkki tiedostoon komentorivi.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/laskarit/viikko1/komentorivi.txt)
 
-[Linkki tiedostoon maarittelydokumentti.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/harjoitustyo/dokumentaatio/maarittelydokumentti.txt)
+[Linkki tiedostoon maarittelydokumentti.md](https://github.com/harakanvarvas/ot-harjoitustyo/blob/master/harjoitustyo/dokumentaatio/maarittelydokumentti.md)
 
-[Linkki tiedostoon tyoaikakirjanpito.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/harjoitustyo/dokumentaatio/tyoaikakirjanpito.txt)
+[Linkki tiedostoon tyoaikakirjanpito.md](https://github.com/harakanvarvas/ot-harjoitustyo/blob/master/harjoitustyo/dokumentaatio/tyoaikakirjanpito.md)
