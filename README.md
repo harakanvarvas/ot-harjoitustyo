@@ -1,36 +1,22 @@
-# Teksti
+## Harjoitustyö
+
+Tämän toistaiseksi nimettömän harjoitustyön tarkoitus on helpottaa huonekasvien ylläpitoa ja hoitoa.
+Harjoitustyön käyttäjä voi viikolla 3 luoda käyttäjätunnuksen ja salasanan ohjelmaan, muttei voi
+toistaiseksi kirjautua ohjelmaan sisään. Sekä käyttäjätunnukset että salasanat tallennetaan hashattuna 
+parina tietokoneelle erilliseen tiedostoon. Useamman henkilön tulisi myöhemmässä vaiheessa olla mahdollista 
+käyttää ohjelmaa, ja määritellä, voivatko muut samalla koneella ohjelmaa käyttävät henkilöt nähdä
+hänen huonekasvinsa ja/tai myös muokata niiden tietoja.
 
 
-**Teksti** eli _kirjoitelma_ on luettavaksi tarkoitettua kirjoitusta,
-jolla ilmaistu sisältö muodostaa asiakokonaisuuden, kuten 
-_artikkelin_, _novellin_, _runon_ tai _romaanin_. Tekstejä voidaan 
-lajitella eri _tekstityyppeihin_ niiden esteettisten normien 
-tai esimerkiksi käyttötarkoitusten mukaan.
+# Toiminnan testaus
 
-Esimerkiksi sanomalehdissä olevat artikkelit noudattavat 
-yleensä tiettyjä yleiseisesti käytössä olevia rakenteita ja 
-tehokeinoja, kuten _otsikkoa_, _ingressiä_ ja _leipätekstiä_, mutta 
-se tarkoittaa myös ei-fiktiivistä tekstiä, joka on usein uutinen. 
-Vastaavasti esimerkiksi _proosa_ on fiktiivistä ja vapaamuotoista 
-tekstiä ja _runous_ pyrkii tyypillisesti maksimaaliseen 
-estetiikkaan yli kieliopillisten sääntöjen ja määritteiden. Eri 
-tekstilajeilla voi siis olla erilaisia rakenteita ja painotuksia.
+Tällä hetkellä sovelluksen toimintaa voi testata komennolla "python3 -m poetry run invoke test".
 
-Aina yksittäinen teksti ei kuulu selvästi yhteen tekstilajiin, 
-vaan siinä voi olla aineksia useammasta tekstilajista, josta yksi 
-esimerkki on esimerkiksi _proosaruno_. Yhdestä aiheesta on myös 
-mahdollista laatia monen eri tekstilajin tekstejä. Myös 
-puheesta voidaan tehdä tekstiä _translitteroimalla_ ja koostamalla 
-se luettavaan muotoon. 
-
-[Wikipedia: Teksti (2021), 
-https://fi.wikipedia.org/wiki/Teksti, (luettu 23.3.2021)]
+Testikattavuuden näkee komennolla "python3 -m poetry run invoke coverage-percent". Html-
+tiedoston saa erikseen komennolla "python3 -m poetry run invoke coverage-report".
 
 
-
-[Linkki tiedostoon gitlog.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/laskarit/viikko1/gitlog.txt)
-
-[Linkki tiedostoon komentorivi.txt](https://raw.githubusercontent.com/harakanvarvas/ot-harjoitustyo/master/laskarit/viikko1/komentorivi.txt)
+# Dokumentaatio
 
 [Linkki tiedostoon maarittelydokumentti.md](https://github.com/harakanvarvas/ot-harjoitustyo/blob/master/harjoitustyo/dokumentaatio/maarittelydokumentti.md)
 
