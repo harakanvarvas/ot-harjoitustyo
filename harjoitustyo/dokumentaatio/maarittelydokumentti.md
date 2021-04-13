@@ -10,7 +10,7 @@ __Ohjelmointisuunnitelma:__ Aluksi tekstikäyttöliittymä. Kun perusominaisuude
 
 __Tiedon tallennus:__ Tiedosto, tai todennäköisemmin tietokanta. Tieto tallennetaan paikallisen koneen levylle.
 
-__Testaus:__ Automatisoitu
+__Testaus:__ Komennolla "python3 -m poetry run invoke test" tai poetry shellissä komennolla "invoke test"
 
 
 
@@ -21,20 +21,28 @@ __Testaus:__ Automatisoitu
 
 -Käyttäjärooleja on vain peruskäyttäjä
 
--Käyttäjä voi luoda tunnuksen ohjelmaan, ja tunnuksen luotuaan kirjautua sisään
+-Käyttäjä voi luoda tunnuksen ohjelmaan ja määrittää salasanan tunnukselleen
 
 
 -Sisäänkirjautuneena käyttäjä voi:
 
--Lisätä huonekasvin ohjelmaan
+-Luoda huoneen ja halutessaan määritellä huoneen ominaisuudet (ikkunan suunta, valon määrä (tunnit), suora auringonvalo)
+
+-Lisätä huonekasvin huoneeseen
 
 -Lisätä huonekasville erilaisia tarpeita, mm. valo, vesi, lannoite, ilmankosteus
 
 -Laittaa kullekin huonekasville muistutuksia kunkin tarpeen tarkistamisesta
 
--Poistaa huonekasvin ohjelmasta
+-Poistaa huonekasvin huoneesta
+
+-Poistaa huoneen ohjelmasta
+
+-Salasanasuojata huoneensa ja/tai kasvinsa
 
 -Kirjautua ulos järjestelmästä
+
+-Poistaa tunnuksensa
 
 
 
@@ -47,4 +55,8 @@ __Testaus:__ Automatisoitu
 -Mahdollisesti pitää kirjaa kuolleista kasveista ja kuolinsyystä?
 
 -Mahdollisesti kasvinlisäysvaiheessa valita kasvin tyypin muutamasta yleisimmästä kategoriasta ja saada oletusarvoiset hoito-ohjeet kasville? 
+
+
+
+
 
