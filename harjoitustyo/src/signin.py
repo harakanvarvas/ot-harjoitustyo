@@ -1,10 +1,12 @@
-from securing import Securing
+#from securing import Securing
 
 class SignIn:
 
     def __init__(self):
 
-        with open ("usernames.txt") as datafile: #Salaamattomat käyttäjänimet
+        #self.securing = Securing() #salasanojen salaus tulee ominaisuudeksi myöhemmin
+
+        with open ("usernames.txt") as datafile: 
             self.__usernames_list = datafile.read()
 
     def perform(self):
@@ -31,23 +33,38 @@ class SignIn:
                         break
 
                 elif command == "y" or command == "Y":
-                    with open ("usernames.txt", "a") as datafile:
-                        datafile.write(f"{username}\n")
-
                     print("Asetetaan käyttäjätunnukselle salasana.")
                     SignIn.signInSetPassword(self, username)
+                    print("Käyttäjätunnus ja salasana asetettu onnistuneesti!")
                     break
 
 
                     
     def signInSetPassword(self, username):
+        #secure = Securing()
         while True:
             password = input("Anna salasana (väh. 8 merkkiä): ")
             if len(password) < 8:
                 print("Salasana ei ollut vaaditun pituinen. Yritä uudestaan.")
             else:
-                Securing.hashing(self, username, password)
-                password_again = input("Anna salasana uudestaan: ")
-                value = Securing.verifying(self, username, password_again)
-                if value == True:
-                    print("Käyttäjätunnuksen ja salasanan asettaminen onnistui!")
+                #secure.hashing(username, password)
+                while True:
+                    password_again = input("Anna salasana uudestaan: ")
+                    if password_again == password:
+                        with open ("usernames.txt", "a") as datafile:
+                            datafile.write(f"{username};{password}\n")
+                        break
+                    else:
+                        print("Salasana ei ollut sama. Yritä uudelleen.")
+                
+                break
+                
+                #value = secure.verifying(username, password_again)
+                #print(value)
+                #if value == True:
+                #    print("Käyttäjätunnuksen ja salasanan asettaminen onnistui!")
+
+
+#if __name__ == "__main__":
+#    kirjaudu = SignIn()
+#    kirjaudu.perform()
