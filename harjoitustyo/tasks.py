@@ -17,4 +17,4 @@ def coverage_report(ctx):
 
 @task
 def start(ctx):
-    ctx.run("python3 src/harjoitustyo.py")
+    ctx.run("python3 src/index.py")
