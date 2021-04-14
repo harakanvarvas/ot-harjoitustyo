@@ -7,3 +7,4 @@
 | 6.4.  |  3     | tutustumista TodoApp:n dokumentaatioon, luokkarakenteeseen ja järjestämiseen |
 | 12.4. |  2     | alustavaa luokkarakenteen hahmottelua ja tiedonetsintää salasanojen kryptaamista varten |
 | 13.4. |  9     | harjoitustyön koodaamista, debuggausta ja projektinhallinnan harjoittelua |
+| 14.4. |  4     | TodoApp:n käyttäjätunnuksen ja salasanan tallennusmetodien tutkimista, tiedonhakemista aiheeseen liittyen ja soveltamisyrityksiä |
