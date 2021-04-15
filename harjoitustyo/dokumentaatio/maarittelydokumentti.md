@@ -26,19 +26,11 @@ __Testaus:__ Komennolla "python3 -m poetry run invoke test" tai poetry shelliss�
 
 -Sisäänkirjautuneena käyttäjä voi:
 
--Luoda huoneen ja halutessaan määritellä huoneen ominaisuudet (ikkunan suunta, valon määrä (tunnit), suora auringonvalo)
+-Lisätä ohjelmaan kasvin, jolla on nimi tai muu ID
 
--Lisätä huonekasvin huoneeseen
+-Merkitä, milloin kasvi on esimerkiksi viimeksi kasteltu ja päivittää tiedon
 
--Lisätä huonekasville erilaisia tarpeita, mm. valo, vesi, lannoite, ilmankosteus
-
--Laittaa kullekin huonekasville muistutuksia kunkin tarpeen tarkistamisesta
-
--Poistaa huonekasvin huoneesta
-
--Poistaa huoneen ohjelmasta
-
--Salasanasuojata huoneensa ja/tai kasvinsa
+-Poistaa huonekasvin
 
 -Kirjautua ulos järjestelmästä
 
@@ -49,6 +41,14 @@ __Testaus:__ Komennolla "python3 -m poetry run invoke test" tai poetry shelliss�
 ## __Jatkokehitysideoita:__
 
 -Käyttäjä voi:
+
+-Luoda huoneen ja halutessaan määritellä huoneen ominaisuudet (ikkunan suunta, valon määrä (tunnit), suora auringonvalo)
+
+-Lisätä huonekasvin huoneeseen
+
+-Salasanasuojata huoneensa ja/tai kasvinsa
+
+-Lisätä huonekasville erilaisia tarpeita, mm. valo, vesi, lannoite, ilmankosteus
 
 -Tehdä kasville ns. "vianmäärityksen" ja saada hoito-ohjeen yleisimpiin ongelmiin: kellastuneet tai nuupallaan olevat lehdet, vihannespunkit, jne.
 
